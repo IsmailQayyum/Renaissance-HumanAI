@@ -134,21 +134,6 @@ The GAN is trained adversarially:
 4. Both networks improve iteratively to create more realistic outputs
 
 ## 🔍 Future Work
-
-- Integrate more diverse text samples from various languages and historical periods
-- Expand the range of degradation effects to include tears, water damage, and stains
 - Develop a conditional GAN to control specific degradation parameters
-- Create a web interface for interactive text degradation
-
-## 📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- The PyTorch team for their excellent deep learning framework
-- Historical libraries for providing reference materials
-- The academic community researching document degradation models 
 
 
-make this more beautiful make images well aligned etc and remove emojis
