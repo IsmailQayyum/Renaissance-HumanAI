@@ -1,9 +1,7 @@
 # Renaissance Text GAN
 
-<div align="center">
-  <img src="final_results/text_comparison_1.png" alt="Renaissance Text Sample" width="700">
-  <p><em>Generated Renaissance-style text with realistic printing imperfections</em></p>
-</div>
+![image](https://github.com/user-attachments/assets/03ce9173-b815-4af7-978b-25769a7c72c5)
+
 
 <hr>
 
@@ -18,12 +16,12 @@ This project implements a Generative Adversarial Network (GAN) for creating synt
 
 ## Results
 
+![image](https://github.com/user-attachments/assets/73413db3-f5ac-482f-844b-10e751da7899)
+
+![image](https://github.com/user-attachments/assets/922631b4-98ae-404e-856a-79b29656856e)
+
 <div align="center">
   <table>
-    <tr>
-      <td><img src="final_results/clean_text_2.png" width="300"></td>
-      <td><img src="final_results/degraded_text_2.png" width="300"></td>
-    </tr>
     <tr>
       <td align="center"><strong>Clean Text</strong></td>
       <td align="center"><strong>Renaissance Degraded Text</strong></td>
