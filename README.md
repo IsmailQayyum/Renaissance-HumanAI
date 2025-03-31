@@ -20,9 +20,10 @@ This project implements a Generative Adversarial Network (GAN) for creating synt
 
 <div align="center">
   <p><i>Example with more pronounced degradation effects</i></p>
+  </div>
+
   ![image](https://github.com/user-attachments/assets/763665ab-26ec-48ea-a5dd-2e228bbf0ef3)
 
-</div>
 
 ## 🏗️ Architecture
 
