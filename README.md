@@ -142,12 +142,5 @@ The degradation process applies several transformations:
 - **Noise injection** for paper grain
 - **Random masks** for localized degradation
 
-### Training Process
-
-The GAN is trained adversarially:
-1. The generator creates clean text images
-2. The degradation layer applies Renaissance-style imperfections
-3. The discriminator learns to distinguish real vs. generated degraded samples
-4. Both networks improve iteratively to create more realistic outputs
 
 <hr>
