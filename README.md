@@ -16,19 +16,7 @@ This project implements a Generative Adversarial Network (GAN) for creating synt
 
 ## 📊 Results
 
-<div align="center">
-  <table>
-    <tr>
-       ![image](https://github.com/user-attachments/assets/f6e320bf-8fe3-40b0-a18a-b8e923a43ff9)
-
-      <td><img src="final_results/degraded_text_2.png" width="300"></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Clean Text</b></td>
-      <td align="center"><b>Renaissance Degraded Text</b></td>
-    </tr>
-  </table>
-</div>
+![image](https://github.com/user-attachments/assets/5a09ce5b-ca14-4eef-b11f-7d9f3d817c6a)
 
 <div align="center">
   <img src="final_results_heavy/text_comparison_3.png" alt="Heavy Degradation Example" width="700">
