@@ -96,14 +96,23 @@ python train.py --data_dir dataset/degraded --output_dir model --num_epochs 100
 
 renaissance_text_gan/
 ├── data/                  # Dataset creation and handling
+
 ├── models/                # GAN architecture implementation
+
 │   ├── gan_models.py      # Generator and discriminator models
+
 │   └── combined_model.py  # Full generation pipeline
+
 ├── utils/                 # Utility functions
+
 │   ├── data_utils.py      # Data loading and transformations
+
 │   └── eval_metrics.py    # Evaluation metrics
+
 ├── train.py               # Training script
+
 ├── generate.py            # Generation script
+
 └── run_demo.py            # Demo script
 
 
