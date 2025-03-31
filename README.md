@@ -12,7 +12,7 @@ This project implements a Generative Adversarial Network (GAN) for creating synt
 - **Faded sections** that simulate uneven ink application
 - **Paper texture and grain** that replicate aged parchment
 
-## 📊 Results
+## 📊 Generated Results
 
 ![image](https://github.com/user-attachments/assets/e5166fde-d083-4f33-a335-c4040a35b12c)
 
