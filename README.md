@@ -19,8 +19,9 @@ This project implements a Generative Adversarial Network (GAN) for creating synt
 ![image](https://github.com/user-attachments/assets/9e32e089-2c78-4d1b-8204-69ee05a19302)
 
 <div align="center">
-  <img src="final_results_heavy/text_comparison_3.png" alt="Heavy Degradation Example" width="700">
   <p><i>Example with more pronounced degradation effects</i></p>
+  ![image](https://github.com/user-attachments/assets/763665ab-26ec-48ea-a5dd-2e228bbf0ef3)
+
 </div>
 
 ## 🏗️ Architecture
