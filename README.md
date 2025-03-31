@@ -19,7 +19,7 @@ This project implements a Generative Adversarial Network (GAN) for creating synt
 <div align="center">
   <table>
     <tr>
-      <td><img src="final_results/clean_text_2.png" width="300"></td>
+      <td><img src="![image](https://github.com/user-attachments/assets/2422e53e-4a2e-4a36-acf9-8f64328f4422)" width="300"></td>
       <td><img src="final_results/degraded_text_2.png" width="300"></td>
     </tr>
     <tr>
