@@ -1,33 +1,31 @@
-# 📜 Renaissance Text GAN
+# Renaissance Text GAN
 
-![image](https://github.com/user-attachments/assets/2e9ff9c6-61d0-469c-8aee-b7b621fca499)
+![Generated Sample](https://github.com/user-attachments/assets/e5166fde-d083-4f33-a335-c4040a35b12c)
 
+## Overview
 
-## 🖋️ Overview
-
-This project implements a Generative Adversarial Network (GAN) for creating synthetic Renaissance-style printed text with authentic historical printing imperfections. I've designed this system to generate text samples that mimic the characteristics of 17th-century Spanish texts, featuring:
+This project implements a Generative Adversarial Network (GAN) to create synthetic Renaissance-style printed text with authentic historical printing imperfections. The system is designed to generate text samples that mimic 17th-century Spanish texts, featuring:
 
 - **Ink bleeding** at character edges
 - **Smudging effects** that distort text clarity
 - **Faded sections** that simulate uneven ink application
 - **Paper texture and grain** that replicate aged parchment
 
-## 📊 Generated Results
+## Generated Results
 
-![image](https://github.com/user-attachments/assets/e5166fde-d083-4f33-a335-c4040a35b12c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9e32e089-2c78-4d1b-8204-69ee05a19302" alt="Generated Example 1" width="600">
+</p>
 
-![image](https://github.com/user-attachments/assets/9e32e089-2c78-4d1b-8204-69ee05a19302)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/763665ab-26ec-48ea-a5dd-2e228bbf0ef3" alt="Generated Example 2" width="600">
+</p>
 
-<div align="center">
-  <p><i>Example with more pronounced degradation effects</i></p>
-  </div>
+<p align="center"><i>Example with more pronounced degradation effects</i></p>
 
-  ![image](https://github.com/user-attachments/assets/763665ab-26ec-48ea-a5dd-2e228bbf0ef3)
+## Architecture
 
-
-## 🏗️ Architecture
-
-I've implemented this project using PyTorch with a dual-component architecture:
+This project is implemented using PyTorch with a dual-component architecture:
 
 ### Generator Network
 - Residual block architecture for high-quality generation
@@ -40,18 +38,18 @@ I've implemented this project using PyTorch with a dual-component architecture:
 - Spatial transformations for smudging
 - Noise injection for paper texture simulation
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
-I evaluate the quality of generated Renaissance text using:
+To assess the quality of generated Renaissance text, the following metrics are used:
 
-1. **FID (Fréchet Inception Distance)** - Measures the similarity between generated and real images
-2. **LPIPS (Learned Perceptual Image Patch Similarity)** - Quantifies perceptual similarity
-3. **Historical Artifact Realism Score** - A custom metric that quantifies:
+1. **FID (Fréchet Inception Distance)** - Measures the similarity between generated and real images.
+2. **LPIPS (Learned Perceptual Image Patch Similarity)** - Quantifies perceptual similarity.
+3. **Historical Artifact Realism Score** - A custom metric evaluating:
    - Ink bleeding authenticity
    - Text irregularity levels
    - Paper texture realism
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -88,7 +86,7 @@ python data/create_dataset.py --output_dir dataset --num_samples 1000
 python train.py --data_dir dataset/degraded --output_dir model --num_epochs 100
 ```
 
-## 🏁 Project Structure
+## Project Structure
 
 ```
 renaissance_text_gan/
@@ -104,13 +102,13 @@ renaissance_text_gan/
 └── run_demo.py            # Demo script
 ```
 
-## 📝 Implementation Details
+## Implementation Details
 
 ### Data Preprocessing
 
-I use text samples from classical Spanish literature (primarily Don Quixote) and render them with:
+Text samples are taken from classical Spanish literature (primarily *Don Quixote*) and rendered with:
 - Appropriate Renaissance-style fonts
-- Page layout typical of the period
+- Page layouts typical of the period
 - Various font sizes and densities
 
 ### Degradation Effects
@@ -125,24 +123,24 @@ The degradation process applies several transformations:
 ### Training Process
 
 The GAN is trained adversarially:
-1. The generator creates clean text images
-2. The degradation layer applies Renaissance-style imperfections
-3. The discriminator learns to distinguish real vs. generated degraded samples
-4. Both networks improve iteratively to create more realistic outputs
+1. The generator creates clean text images.
+2. The degradation layer applies Renaissance-style imperfections.
+3. The discriminator learns to distinguish real vs. generated degraded samples.
+4. Both networks improve iteratively to create more realistic outputs.
 
-## 🔍 Future Work
+## Future Work
 
-- Integrate more diverse text samples from various languages and historical periods
-- Expand the range of degradation effects to include tears, water damage, and stains
-- Develop a conditional GAN to control specific degradation parameters
-- Create a web interface for interactive text degradation
+- Integrate more diverse text samples from various languages and historical periods.
+- Expand the range of degradation effects to include tears, water damage, and stains.
+- Develop a conditional GAN to control specific degradation parameters.
+- Create a web interface for interactive text degradation.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- The PyTorch team for their excellent deep learning framework
-- Historical libraries for providing reference materials
-- The academic community researching document degradation models 
+- The PyTorch team for their excellent deep learning framework.
+- Historical libraries for providing reference materials.
+- The academic community researching document degradation models.
