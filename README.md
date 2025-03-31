@@ -68,8 +68,9 @@ pip install -e .
 
 bash
 # Run the demo script
+```
 python run_demo.py --output_dir results
-
+```
 
 ### Generate Samples
 
@@ -83,11 +84,13 @@ python generate.py --render_text --output_dir samples --num_samples 5 --save_com
 
 bash
 # Create a dataset
+```
 python data/create_dataset.py --output_dir dataset --num_samples 1000
-
+```
 # Train the GAN model
+```
 python train.py --data_dir dataset/degraded --output_dir model --num_epochs 100
-
+```
 
 ## 🏁 Project Structure
 
