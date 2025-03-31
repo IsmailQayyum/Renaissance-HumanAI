@@ -59,6 +59,14 @@ I evaluate the quality of generated Renaissance text using:
 
 <hr>
 
+### Generated Images
+
+![image](https://github.com/user-attachments/assets/836d5284-c91c-4bf2-bb15-4177edcd253f)
+
+![image](https://github.com/user-attachments/assets/d5b98dd4-3c06-47ac-9d96-d430e79a2267)
+
+
+
 ## Getting Started
 
 ### Installation
