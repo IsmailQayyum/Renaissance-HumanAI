@@ -1,7 +1,8 @@
 # 📜 Renaissance Text GAN
 
 <div align="center">
-  <img src="final_results/text_comparison_1.png" alt="Renaissance Text Sample" width="700">
+  ![image](https://github.com/user-attachments/assets/49511fc6-ed33-4be7-83b2-be7473f5b817)
+
   <p><i>Generated Renaissance-style text with realistic printing imperfections</i></p>
 </div>
 
