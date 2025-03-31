@@ -75,9 +75,9 @@ python run_demo.py --output_dir results
 
 bash
 # Generate Renaissance text samples with varying degradation levels
-`
+```
 python generate.py --render_text --output_dir samples --num_samples 5 --save_comparison --degradation_intensity 0.7
-`
+```
 
 ### Train Your Own Model
 
