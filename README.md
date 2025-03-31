@@ -16,8 +16,6 @@ This project implements a Generative Adversarial Network (GAN) for creating synt
 
 ## 📊 Results
 
-![image](https://github.com/user-attachments/assets/e1c512bd-14b1-4fea-88be-6af838476579)
-
 ![image](https://github.com/user-attachments/assets/e5166fde-d083-4f33-a335-c4040a35b12c)
 
 ![image](https://github.com/user-attachments/assets/9e32e089-2c78-4d1b-8204-69ee05a19302)
