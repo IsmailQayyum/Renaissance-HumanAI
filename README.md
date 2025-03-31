@@ -1,10 +1,7 @@
 # 📜 Renaissance Text GAN
 
-<div align="center">
-  ![image](https://github.com/user-attachments/assets/49511fc6-ed33-4be7-83b2-be7473f5b817)
+![image](https://github.com/user-attachments/assets/2e9ff9c6-61d0-469c-8aee-b7b621fca499)
 
-  <p><i>Generated Renaissance-style text with realistic printing imperfections</i></p>
-</div>
 
 ## 🖋️ Overview
 
